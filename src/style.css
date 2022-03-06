@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+img{
+  display:inline-flex;
+  width: 250px;
+  height: 200px;
+  margin-left: 20px;
+  border-radius: 5px;
+  display: inline;
+}
+video{
+  width: 520px;
+  height: 300px;
+  border-radius: 10px;
+  margin-left: 15px;
+}
+ .red{
+  color: red;
+}
+.title{
+  font-style: italic;
+  font-size:xx-large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
